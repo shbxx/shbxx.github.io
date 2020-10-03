@@ -209,7 +209,7 @@ input, select, textarea {
 		transform: translate3d(0,0,0);
 	/* Set your background with this */
 
-		background: #050e11 url("https://ik.imagekit.io/yuiistic/Farid/bg.jpg") bottom;
+		background: #050e11 url("https://cdn.yuiistic.my.id/matcha/bg.jpg") bottom;
 		background-size: auto, cover;
 		background-repeat: repeat-x;
 		height: 100%;
@@ -336,7 +336,7 @@ input, select, textarea {
 		-ms-animation: overlay 1.5s 1.5s forwards;
 		animation: overlay 1.5s 1.5s forwards;
 		background-attachment: fixed, fixed;
-		background-image: url("https://ik.imagekit.io/yuiistic/Farid/overlay-pattern.png"), url("https://ik.imagekit.io/yuiistic/Farid/overlay.svg");
+		background-image: url("https://cdn.yuiistic.my.id/matcha/overlay-pattern.png"), url("https://cdn.yuiistic.my.id/matcha/overlay.svg");
 		background-position: top left, center center;
 		background-repeat: repeat, no-repeat;
 		background-size: auto, cover;
