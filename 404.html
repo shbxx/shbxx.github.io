@@ -4,43 +4,18 @@
     <meta charset="utf-8" />
 	<link rel="icon" type="image/png" href="https://onolune.yuiistic.my.id/4047kcf1u/logo-tilte.png">
     <title>404 Page Not Found</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Roboto+Mono:ital@1&display=swap');
+        </style>
+    <link rel="stylesheet" href="https://onolune.yuiistic.my.id/4047kcf1u/assets/css/main.css">
 </head>
 <body>
       <center> <h1>Annyeong Hello Masa Depan ^_^</h1> </center>
-      <center> <div id="clock" ></div> </center>
-      <hr />
-      <center> <h3>Nginx <div id="clock" ></div></h3> </center>
-      <img src="https://onolune.yuiistic.my.id/4047kcf1u/404-trashy.png" width="30%" height="30%" style="display: block; margin: auto;">
-      
-      <script type="text/javascript">
-		function showTime() {
-		    var a_p = "";
-		    var today = new Date();
-		    var curr_hour = today.getHours();
-		    var curr_minute = today.getMinutes();
-		    if (curr_hour < 12) {
-		        a_p = "AM";
-		    } else {
-		        a_p = "PM";
-		    }
-		    if (curr_hour == 0) {
-		        curr_hour = 12;
-		    }
-		    if (curr_hour > 12) {
-		        curr_hour = curr_hour - 12;
-		    }
-		    curr_hour = checkTime(curr_hour);
-		    curr_minute = checkTime(curr_minute);
-		 document.getElementById('clock').innerHTML=curr_hour + ":" + curr_minute + " " + a_p;
-		    }
- 
-		function checkTime(i) {
-		    if (i < 10) {
-		        i = "0" + i;
-		    }
-		    return i;
-		}
-		setInterval(showTime, 500);
-		</script>
+      <div id="clock" class="clock"></div>
+      <hr / class="garis">
+      <center> <h3>Nginx! - Hosting</h3> </center>
+      <img src="4047kcf1u/404-trashy.png" class="uwu">
+
+      <script src="https://onolune.yuiistic.my.id/4047kcf1u/assets/js/clock.js"></script>
 </body>
 </html>
