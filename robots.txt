@@ -1,5 +1,5 @@
 User-agent: *
 Allow: /
-Disallow /onolune.yuiistic.my.id/*
+Disallow http://onolune.yuiistic.my.id/*
 Disallow /404.html
 Disallow /*.txt$
