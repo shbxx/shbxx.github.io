@@ -1,5 +1,4 @@
 <html>
-<html lang="id">
 	<head>
 		<meta charset="utf-8" />
 		<link rel="icon" type="image/png" href="https://ik.imagekit.io/yuiistic/matcha/img/logo-tilte.png">
@@ -10,13 +9,13 @@
 		<meta name="robots" content="index" />
 		<meta property="og:title" content="Yuiistic | 성은">
 		<meta property="og:description" content="Welcome To Yuiistic | Hanya Orang Biasa.">
-		<meta property="og:image" content="https://onolune.yuiistic.my.id/matcha/img/bg.jpg">
+		<meta property="og:image" content="matcha/img/bg.jpg">
 		<meta property="og:image:alt" content="Yuiistic">
 		<meta property="og:type" content="website">
 		<meta property="og:url" content="https://yuiistic.my.id/">
 		<link rel="stylesheet" href="https://onolune.yuiistic.my.id/matcha/assets/css/main.css" />
 		<link rel="stylesheet" href="https://onolune.yuiistic.my.id/matcha/assets/css/noscript.css" /></noscript>
-		<!-- G-Manager -->
+		<!-- G-Manager
 		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-180151840-1"></script>
 		<script>
   			window.dataLayer = window.dataLayer || [];
@@ -25,6 +24,22 @@
 
   			gtag('config', 'UA-180151840-1');
 		</script>
+		-->
+		<script>
+			var dnt = navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack;
+			if (dnt != "1" && dnt != "yes") {
+			  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+		  
+			  ga('create', 'UA-180151840-1', 'auto');
+			  ga('set', 'anonymizeIp', true);
+			  ga('send', 'pageview');
+			} else {
+			  console.info("Respecting Do-Not-Track, not loading analytics.");
+			}
+		  </script>
 
 	</head>
 	<body class="is-preload">
@@ -39,15 +54,16 @@
 						<nav>
 							<ul>
 								<li><a href="https://www.instagram.com/yyyuiistic" target="_blank" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
-								<li><a href="mailto:" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
+								<!-- <li><a href="mailto:" class="icon fa-envelope-o"><span class="label">Email</span></a></li> -->
 								<li><a href="https://soundcloud.com/yuiistic" target="_blank" class="icon fa-soundcloud"><span class="label">Soundcloud</span></a></li>
 								<li><a href="https://open.spotify.com/artist/4ply9dXC5jJuXUbkCTl30G" target="_blank" class="icon fa-spotify"><span class="label">Spotify</span></a></li>
-								<li><a href="https://pinterest.com/yuiistic" target="_blank" class="icon fa-pinterest"><span class="label">Pinterest</span></a></li>
+								<li><a href="https://github.com/yuimatcha" target="_blank" class="icon fa-github"><span class="label">Github</span></a></li>
+								<!-- <li><a href="https://pinterest.com/yuiistic" target="_blank" class="icon fa-pinterest"><span class="label">Pinterest</span></a></li> -->
 							</ul>
 						</nav>
 					</header>
 					<footer id="footer">
-						<span class="copyright">Copyright &copy;<script>document.write(new Date().getFullYear());</script> <a href="https://yuiistic.my.id" target="_blank">Farid Nizam</a></span>
+						<span class="copyright">Copyright &copy;<script>document.write(new Date().getFullYear());</script> <a href="https://yuiistic.my.id">Farid Nizam</a></span>
 					</footer>
 			</div>
 		</div>
@@ -55,7 +71,7 @@
 			window.onload = function() { document.body.classList.remove('is-preload'); }
 			window.ontouchmove = function() { return false; }
 			window.onorientationchange = function() { document.body.scrollTop = 0; }
-			console.log("Cannot Copy And Paste");
+			console.info('Do Not Coppy Paste Script Thanks.');
 		</script>
 	</body>
 </html>
